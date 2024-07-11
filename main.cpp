@@ -3,11 +3,23 @@
 
 
 
-// main() runs in its own thread in the OS
 int main()
 {
-    while (true) {
 
-    }
-}
+    int a = 10;
+    int b = 20;
+    int c = 30;
+
+
+
+    int d = a + b;
+    printf("Value of variable d is: %d\n", d);
+
+    int e = d-c;
+    printf("Value of variable e is: %d\n", e);
+
+    return 0;
+
+
+ }
 
