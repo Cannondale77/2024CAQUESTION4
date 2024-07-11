@@ -1,5 +1,4 @@
 #include "mbed.h"
-#include <cstdio>
 
 
 
@@ -12,10 +11,13 @@ int main()
 
 
 
+
+
+
     int d = a + b;
     printf("Value of variable d is: %d\n", d);
 
-    int e = d-c;
+    int e = d - c;
     printf("Value of variable e is: %d\n", e);
 
     return 0;
