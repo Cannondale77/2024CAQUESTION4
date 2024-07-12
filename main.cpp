@@ -9,24 +9,20 @@ int main()
     int b = 20;
     int c = 30;
 
-
-
-
-
-
 printf("the answer to d = a + b");
 
-    int d = a + b;
-    printf("Value of variable d is: %d\n", d);
+int d = a + b;
 
-    int e = d - c;
+printf("Value of variable d is: %d\n", d);
+
+int e = d - c;
 
 printf("the answer to e = d - c");
+    
 
-    //
-    printf("Value of variable e is: %d\n", e);
+printf("Value of variable e is: %d\n", e);
 
-    return 0;
+return 0;
 
 
  }
